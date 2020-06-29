@@ -1,6 +1,7 @@
 # demo-middleware-public-files
 
 This project was bootstrapped with [Frontity](https://frontity.org/).
+https://vercel.com/docs/configuration#project/functions
 
 #### Table of Contents
 

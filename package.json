@@ -6,6 +6,12 @@
   "keywords": [
     "frontity"
   ],
+  "scripts": {	
+    "dev": "frontity dev",	
+    "build": "frontity build",	
+    "serve": "frontity serve"	
+  },	
+  "prettier": {},
   "dependencies": {
     "@amaurymartiny/now-middleware": "^0.2.0",
     "@frontity/core": "^1.7.1",
