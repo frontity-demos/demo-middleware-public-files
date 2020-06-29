@@ -1,3 +1,10 @@
+module.exports = (req, res) => {
+  res.json({
+    name: 'JuanMa',
+    city: 'Murcia'
+  })
+}
+
 /*
 const { chain } = require('@amaurymartiny/now-middleware');
 const { NowRequest, NowResponse } = require('@vercel/node');
@@ -15,10 +22,3 @@ async function handler(req, res) {
 // Chain some middlewares before calling the ZEIT Now serverless function
 module.exports = chain(cors(), morgan('common'), server)(handler);
 */
-
-module.exports = (req, res) => {
-  res.json({
-    name: 'JuanMa',
-    city: 'Murcia'
-  })
-}
