@@ -6,7 +6,7 @@ const cors = require('cors'); // Enable cross-origin resource sharing (CORS) wit
 const morgan = require('morgan'); // HTTP request logger
 const server = require('../build/server.js'); // HTTP request logger
 
-async function handler(_req: NowRequest, res: NowResponse): Promise<void> {
+async function handler(req, res) {
   // This is your normal ZEIT Now function.
   res.send('Everything OK.');
 }
